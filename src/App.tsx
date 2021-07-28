@@ -1,3 +1,4 @@
+import Icon from './components/Icon';
 import Footer from './components/footer';
 import Header from './components/header';
 import Button from './components/button';
@@ -11,7 +12,6 @@ import recallo from './assets/images/recallo.png';
 import moneymie from './assets/images/moneymie.png';
 import whogohost from './assets/images/whogohost.png';
 import mmbhomecare from './assets/images/mmbhomecare.png';
-import Icon from './components/Icon';
 
 export default function App() {
   return (
@@ -234,7 +234,7 @@ export default function App() {
           </div>
         </div>
 
-        <div className='flex f-j-c  blue-bg'>
+        <div className='flex f-j-c ov-hide blue-bg'>
           <div className='c-half p-xl flex f-a-c'>
             <div>
               <h2 className='white'>
@@ -246,10 +246,10 @@ export default function App() {
               </p>
               <p className='white'>Sign up now to get #500 credit.</p>
               <Button
-                className='mr-sm'
-                icon='arrow-blue'
                 bg='white'
                 color='blue'
+                className='mr-sm'
+                icon='arrow-blue'
               >
                 Get started
               </Button>
@@ -260,14 +260,14 @@ export default function App() {
           </div>
           <div className='c-half'>
             <div className='p-xl'></div>
-            <img src={image1} className='full' />
+            <img src={image1} className='full p-rel c-img' />
           </div>
         </div>
 
-        <div className='flex f-j-c dark-bg'>
+        <div className='flex f-j-c dark-bg ov-hide'>
           <div className='c-half'>
             <div className='p-xl'></div>
-            <img src={image3} className='full' />
+            <img src={image3} className='full p-rel c-img' />
           </div>
           <div className='half c-half p-xl flex f-a-c'>
             <div>

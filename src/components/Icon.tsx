@@ -16,6 +16,7 @@ export default function Icon({ icon, cname = '' }: props) {
           // @ts-ignore
           images[`${icon}`].default
         }
+        alt={icon}
       />
     </span>
   );
