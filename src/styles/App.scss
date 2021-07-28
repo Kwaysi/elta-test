@@ -1,0 +1,85 @@
+@import 'index';
+
+header {
+  height: 80px;
+  z-index: 200;
+}
+
+.menu {
+  left: 50%;
+  padding-left: 0;
+  list-style: none;
+  transform: translateX(-50%);
+}
+
+.hero {
+  top: 0;
+  z-index: 0;
+}
+
+.slant-bg {
+  background-size: cover;
+  background-position: top right;
+  background-image: url(../assets/images/darkbluebg.png);
+}
+
+.laptop-pos {
+  left: 50%;
+  top: -15vh;
+  transform: translateX(-50%);
+}
+
+.lt-btm {
+  top: 50vh;
+}
+
+.c-half {
+  max-width: 683px;
+}
+
+#kyc {
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/images/elizeu-dias-2EGNqazbAMk-unsplash.png);
+}
+#kyb {
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/images/elizeu-dias-2EGNqazbAMk-unsplash1.png);
+}
+#fi {
+  background-size: cover;
+  background-position: center bottom;
+  background-image: url(../assets/images/elizeu-dias-2EGNqazbAMk-unsplash2.png);
+}
+#grad {
+  background-size: cover;
+  background-position: top right;
+  background-image: linear-gradient(to right, #3977de, transparent),
+    url(../assets/images/pexels-vlada-karpovich-49396691.png);
+}
+
+.blog-title {
+  bottom: 0;
+  text-align: left;
+}
+#blog-large {
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/images/large.png);
+}
+#blog-slim {
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/images/slim.png);
+}
+#blog-small-left {
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/images/smalll.png);
+}
+#blog-small-right {
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/images/smallr.png);
+}
