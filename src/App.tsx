@@ -98,7 +98,7 @@ export default function App() {
         </div>
       </div>
 
-      <div className='h-full slant-bg p-rel'>
+      <div className='h-full slant-bg p-rel' style={{ zIndex: 200 }}>
         <img src={laptop1} className='half p-abs laptop-pos' />
         <div className='p-abs full lt-btm center'>
           <h1 className='white'>
@@ -114,7 +114,7 @@ export default function App() {
           <img src={favicon} className='mv-lg' />
         </div>
       </div>
-      <div className='white-bg p-rel' style={{ zIndex: 100 }}>
+      <div className='white-bg p-rel' style={{ zIndex: 300 }}>
         <div className='p-xl'>
           <div className='flex f-j-c f-a-c mv-xl'>
             <img src={expensa} className='mv-lg mh-xl' />

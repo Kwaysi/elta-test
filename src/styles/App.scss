@@ -2,7 +2,7 @@
 
 header {
   height: 80px;
-  z-index: 200;
+  z-index: 500;
 }
 
 .menu {
@@ -14,10 +14,11 @@ header {
 
 .hero {
   top: 0;
-  z-index: 0;
+  z-index:-10;
 }
 
 .slant-bg {
+  z-index: 200;
   background-size: cover;
   background-position: top right;
   background-image: url(../assets/images/darkbluebg.png);
